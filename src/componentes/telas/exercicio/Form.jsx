@@ -72,8 +72,8 @@ function Form() {
                                 <input className="form-control"
                                     type="text"
                                     id="txtDescricao"
-                                    name="descricao"
-                                    value={objeto.descricao}
+                                    name="series"
+                                    value={objeto.series}
                                     onChange={handleChange}
                                     required />
                                 <div class="valid-feedback">
@@ -89,8 +89,8 @@ function Form() {
                                 <input className="form-control"
                                     type="text"
                                     id="txtSigla"
-                                    name="sigla"
-                                    value={objeto.sigla}
+                                    name="repeticoes"
+                                    value={objeto.repeticoes}
                                     onChange={handleChange}
                                     required
                                     maxLength="4" />
